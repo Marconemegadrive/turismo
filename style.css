@@ -1,0 +1,101 @@
+/* Reset de estilos e estilos globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  line-height: 1.6;
+}
+
+/* Barra de navegação */
+.menuNavegacao {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #007bff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.menuNavegacao a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 20px;
+  transition: color 0.2s ease-in-out;
+}
+
+.menuNavegacao a:hover {
+  color: #f8f9fa;
+}
+
+/* Conteúdo principal */
+.conteudoPrincipal {
+  margin-top: 80px; /* Para dar espaço para a barra de navegação */
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos e textos */
+h1, h2, h3, h4, h5, h6 {
+  color: #007bff;
+}
+
+p {
+  text-align: justify;
+}
+
+/* Imagens e galeria */
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+.fotosContainer {
+  margin-top: 20px;
+}
+
+.fotosPontoTuristico img {
+  margin-bottom: 10px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Localização */
+#localizacao {
+  margin-top: 20px;
+}
+
+/* Rodapé */
+.rodaPe {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  text-align: center;
+}
+
+.rodaPe a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 15px;
+  transition: color 0.2s ease-in-out;
+}
+
+.rodaPe a:hover {
+  color: #f8f9fa;
+}
+
+  
